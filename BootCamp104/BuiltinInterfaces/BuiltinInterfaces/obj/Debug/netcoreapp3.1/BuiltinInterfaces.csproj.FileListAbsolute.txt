@@ -1,0 +1,13 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\bin\Debug\netcoreapp3.1\BuiltinInterfaces.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.csprojAssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\BuiltinInterfaces\BuiltinInterfaces\obj\Debug\netcoreapp3.1\BuiltinInterfaces.genruntimeconfig.cache

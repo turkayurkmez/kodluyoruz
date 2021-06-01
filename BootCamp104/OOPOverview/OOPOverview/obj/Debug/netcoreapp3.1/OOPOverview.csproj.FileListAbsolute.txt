@@ -1,0 +1,13 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\bin\Debug\netcoreapp3.1\OOPOverview.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.csprojAssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\OOPOverview\OOPOverview\obj\Debug\netcoreapp3.1\OOPOverview.genruntimeconfig.cache

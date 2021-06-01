@@ -1,0 +1,10 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe.config
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csprojAssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.Form1.resources
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.Properties.Resources.resources
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csproj.GenerateResource.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.pdb

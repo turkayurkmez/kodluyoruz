@@ -1,0 +1,8 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\bin\Debug\netcoreapp3.1\MyHappynessExtensions.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\bin\Debug\netcoreapp3.1\MyHappynessExtensions.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\bin\Debug\netcoreapp3.1\MyHappynessExtensions.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\obj\Debug\netcoreapp3.1\MyHappynessExtensions.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\obj\Debug\netcoreapp3.1\MyHappynessExtensions.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\obj\Debug\netcoreapp3.1\MyHappynessExtensions.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\obj\Debug\netcoreapp3.1\MyHappynessExtensions.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\MyHappynessExtensions\MyHappynessExtensions\obj\Debug\netcoreapp3.1\MyHappynessExtensions.pdb

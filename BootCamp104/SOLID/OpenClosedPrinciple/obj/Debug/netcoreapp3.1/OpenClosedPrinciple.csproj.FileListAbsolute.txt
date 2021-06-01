@@ -1,0 +1,13 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.csprojAssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.genruntimeconfig.cache

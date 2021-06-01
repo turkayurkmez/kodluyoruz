@@ -1,0 +1,12 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.exe
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.genruntimeconfig.cache
