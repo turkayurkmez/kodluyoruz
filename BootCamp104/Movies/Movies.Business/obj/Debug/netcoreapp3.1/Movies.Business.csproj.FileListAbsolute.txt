@@ -1,0 +1,14 @@
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.Business.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.Business.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.Business.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.Models.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.DataAccess.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\bin\Debug\netcoreapp3.1\Movies.Models.pdb
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.csprojAssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.dll
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Business\obj\Debug\netcoreapp3.1\Movies.Business.pdb

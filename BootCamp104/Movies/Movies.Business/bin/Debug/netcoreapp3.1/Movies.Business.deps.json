@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Movies.Business/1.0.0": {
+        "dependencies": {
+          "Movies.DataAccess": "1.0.0",
+          "Movies.Models": "1.0.0"
+        },
+        "runtime": {
+          "Movies.Business.dll": {}
+        }
+      },
+      "Movies.DataAccess/1.0.0": {
+        "dependencies": {
+          "Movies.Models": "1.0.0"
+        },
+        "runtime": {
+          "Movies.DataAccess.dll": {}
+        }
+      },
+      "Movies.Models/1.0.0": {
+        "runtime": {
+          "Movies.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Movies.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movies.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
