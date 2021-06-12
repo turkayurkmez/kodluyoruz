@@ -2,11 +2,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Movies.Business;
+using Movies.Business.Extensions;
+using Movies.DataAccess.Data;
 using Movies.DataAccess.Repositories;
 using System;
 using System.Collections.Generic;
@@ -28,8 +31,11 @@ namespace Movies.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMapperConfiguration();
             services.AddScoped<IGenreService, GenreService>();
-            services.AddScoped<IGenreRepository, FakeGenreRepository>();
+            services.AddScoped<IGenreRepository, EFGenreRepository>();
+            var connectionString = Configuration.GetConnectionString("db");
+            services.AddDbContext<MoviesDbContext>(option => option.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,5 +1,8 @@
-﻿using Movies.Business.DataTransferObjects;
+﻿using AutoMapper;
+using Movies.Business.DataTransferObjects;
+using Movies.Business.Extensions;
 using Movies.DataAccess.Repositories;
+using Movies.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,21 +13,32 @@ namespace Movies.Business
     public class GenreService : IGenreService
     {
         private IGenreRepository genreRepository;
-        public GenreService(IGenreRepository genreRepository)
+        private IMapper mapper;
+
+        public GenreService(IGenreRepository genreRepository, IMapper mapper)
         {
             this.genreRepository = genreRepository;
+            this.mapper = mapper;
         }
-        public IList<GenreResponseList> GetAllGenres()
+
+        public int AddGenre(AddNewGenreRequest request)
+        {
+            var newGenre = request.ConvertToGenre(mapper);
+            genreRepository.Add(newGenre);
+            return newGenre.Id;
+        }
+
+        public IList<GenreListResponse> GetAllGenres()
         {
             var dtoList = genreRepository.GetAll().ToList();
-            List<GenreResponseList> result = new List<GenreResponseList>();
-            dtoList.ForEach(g => result.Add(new GenreResponseList
-            {
-                Id = g.Id,
-                Name = g.Name
-            }));
-
+            var result = dtoList.ConvertToListResponse(mapper);
             return result;
+        }
+
+        public GenreListResponse GetGenresById(int id)
+        {
+            Genre genre = genreRepository.GetById(id);
+            return genre.ConvertFromEntity(mapper);
         }
     }
 }

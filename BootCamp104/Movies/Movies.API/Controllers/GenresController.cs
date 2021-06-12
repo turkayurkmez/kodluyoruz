@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Movies.Business;
+using Movies.Business.DataTransferObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,5 +26,33 @@ namespace Movies.API.Controllers
             var result = service.GetAllGenres();
             return Ok(result);
         }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var genreListReponse = service.GetGenresById(id);
+            if (genreListReponse != null)
+            {
+                return Ok(genreListReponse);
+            }
+            return NotFound();
+        }
+
+        [HttpPost]
+        public IActionResult AddGenre(AddNewGenreRequest request)
+        {
+            if (ModelState.IsValid)
+            {
+                int genreId = service.AddGenre(request);
+                return CreatedAtAction(nameof(GetById), routeValues: new { id = genreId }, value: null);
+            }
+
+            return BadRequest(ModelState);
+
+
+
+        }
+
+
     }
 }
