@@ -30,6 +30,11 @@ namespace Movies.DataAccess.Repositories
             db.SaveChanges();
         }
 
+        public void Delete(Genre entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public IList<Genre> GetAll()
         {
             return db.Genres.ToList();

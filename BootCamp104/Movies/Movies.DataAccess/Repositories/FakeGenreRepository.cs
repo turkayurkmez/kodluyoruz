@@ -18,6 +18,11 @@ namespace Movies.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public void Delete(Genre entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public IList<Genre> GetAll()
         {
             return new List<Genre>
