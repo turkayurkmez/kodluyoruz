@@ -28,6 +28,11 @@ namespace Movies.Business
             return newGenre.Id;
         }
 
+        public void DeleteGenre(int id)
+        {
+            genreRepository.Delete(id);
+        }
+
         public IList<GenreListResponse> GetAllGenres()
         {
             var dtoList = genreRepository.GetAll().ToList();
@@ -39,6 +44,13 @@ namespace Movies.Business
         {
             Genre genre = genreRepository.GetById(id);
             return genre.ConvertFromEntity(mapper);
+        }
+
+        public int UpdateGenre(EditGenreRequest request)
+        {
+            var genre = request.ConvertToEntity(mapper);
+            int id = genreRepository.Update(genre).Id;
+            return id;
         }
     }
 }

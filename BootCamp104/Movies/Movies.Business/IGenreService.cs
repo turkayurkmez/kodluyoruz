@@ -12,5 +12,7 @@ namespace Movies.Business
         //eklenen son varlığın id'si:
         int AddGenre(AddNewGenreRequest request);
         GenreListResponse GetGenresById(int id);
+        int UpdateGenre(EditGenreRequest request);
+        void DeleteGenre(int id);
     }
 }

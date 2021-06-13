@@ -33,5 +33,10 @@ namespace Movies.Business.Extensions
         {
             return mapper.Map<GenreListResponse>(genre);
         }
+
+        public static Genre ConvertToEntity(this EditGenreRequest request, IMapper mapper)
+        {
+            return mapper.Map<Genre>(request);
+        }
     }
 }

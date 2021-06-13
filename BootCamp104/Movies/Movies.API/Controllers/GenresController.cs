@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Movies.API.Filters;
 using Movies.Business;
 using Movies.Business.DataTransferObjects;
 using System;
@@ -49,8 +50,31 @@ namespace Movies.API.Controllers
 
             return BadRequest(ModelState);
 
+        }
+        [HttpPut("{id}")]
+        [GenreExists]
+        public IActionResult UpdateGenre(int id, EditGenreRequest request)
+        {
+            //Aşağıdaki işlemi, [GenreExists] yapıyor. Detaylar; Filters/GenreExistsAttribute.cs'de:
+            //var isExisting = service.GetGenresById(id);
+            //if (isExisting == null)
+            //{
+            //    return NotFound();
+            //}
 
-
+            if (ModelState.IsValid)
+            {
+                int newItemId = service.UpdateGenre(request);
+                return Ok();
+            }
+            return BadRequest(ModelState);
+        }
+        [HttpDelete("{id}")]
+        [GenreExists]
+        public IActionResult Delete(int id)
+        {
+            service.DeleteGenre(id);
+            return Ok();
         }
 
 

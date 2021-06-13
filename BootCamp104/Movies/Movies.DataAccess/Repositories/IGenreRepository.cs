@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Movies.DataAccess.Repositories
 {
-   public interface IGenreRepository : IRepository<Genre>
+    public interface IGenreRepository : IRepository<Genre>
     {
-
+      
     }
 }

@@ -13,6 +13,11 @@ namespace Movies.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IList<Genre> GetAll()
         {
             return new List<Genre>
@@ -30,6 +35,11 @@ namespace Movies.DataAccess.Repositories
         }
 
         public IList<Genre> GetWithCriteria(Expression<Func<Genre, bool>> ctiteria)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Genre Update(Genre genre)
         {
             throw new NotImplementedException();
         }

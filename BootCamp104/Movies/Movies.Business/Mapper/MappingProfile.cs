@@ -13,6 +13,7 @@ namespace Movies.Business.Mapper
         {
             CreateMap<Genre, GenreListResponse>().ReverseMap();
             CreateMap<Genre, AddNewGenreRequest>().ReverseMap();
+            CreateMap<Genre, EditGenreRequest>().ReverseMap();
            
         }
     }

@@ -12,6 +12,9 @@ namespace Movies.DataAccess.Repositories
         TEntity GetById(int id);
         IList<TEntity> GetWithCriteria(Expression<Func<TEntity, bool>> ctiteria);
         TEntity Add(TEntity entity);
+        TEntity Update(Genre genre);
+        void Delete(int id);
+        void Delete(TEntity entity);
     }
 
 }
