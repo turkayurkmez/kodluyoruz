@@ -1,4 +1,6 @@
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.deps.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.runtimeconfig.dev.json
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.dll
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.pdb
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.Models.dll
@@ -10,6 +12,4 @@ C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAc
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\obj\Debug\netcoreapp3.1\Movies.DataAccess.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\obj\Debug\netcoreapp3.1\Movies.DataAccess.dll
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\obj\Debug\netcoreapp3.1\Movies.DataAccess.pdb
-C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.runtimeconfig.json
-C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\bin\Debug\netcoreapp3.1\Movies.DataAccess.runtimeconfig.dev.json
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.DataAccess\obj\Debug\netcoreapp3.1\Movies.DataAccess.genruntimeconfig.cache

@@ -44,6 +44,11 @@ namespace Movies.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public IList<Genre> GetWithCriteria(Func<Genre, bool> ctiteria)
+        {
+            throw new NotImplementedException();
+        }
+
         public Genre Update(Genre genre)
         {
             throw new NotImplementedException();

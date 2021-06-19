@@ -45,9 +45,14 @@ namespace Movies.DataAccess.Repositories
             return db.Genres.AsNoTracking().FirstOrDefault(x => x.Id == id);
         }
 
-        public IList<Genre> GetWithCriteria(Expression<Func<Genre, bool>> ctiteria)
+        public IList<Genre> GetWithCriteria(Expression<Func<Genre, bool>> criteria)
         {
-            throw new NotImplementedException();
+            return db.Genres.Where(criteria).ToList();
+        }
+
+        public IList<Genre> GetWithCriteria(Func<Genre, bool> criteria)
+        {
+            return db.Genres.Where(criteria).ToList();
         }
 
         public Genre Update(Genre genre)

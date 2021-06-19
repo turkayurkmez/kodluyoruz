@@ -25,25 +25,34 @@ namespace Movies.API.Controllers
 
         [HttpGet]
         [AllowAnonymous]
+        [ResponseCache(Duration =300)]
         public IActionResult Get()
         {
             var result = service.GetAllGenres();
-            return Ok(result);
+            return Ok(new
+            {
+                genres = result,
+                value = DateTime.Now.ToString()
+            }) ;
         }
 
         [HttpGet("{id:int}")]
         [AllowAnonymous]
+        [ResponseCache(CacheProfileName ="list")]
+        
+        //[ResponseCache(Duration =300, VaryByQueryKeys =new[] { "id" })]
         public IActionResult GetById(int id)
         {
             var genreListReponse = service.GetGenresById(id);
             if (genreListReponse != null)
             {
-                return Ok(genreListReponse);
+                return Ok(new { result = genreListReponse, cacheTime = DateTime.Now.ToString() });
             }
             return NotFound();
         }
 
         [HttpPost]
+        [Authorize(Roles ="Admin,Editor")]
         public IActionResult AddGenre(AddNewGenreRequest request)
         {
             if (ModelState.IsValid)

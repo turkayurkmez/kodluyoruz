@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        .menu{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="list-group" id="menu">
+            <li class="list-group-item">An item</li>         
+          </ul>
+    </div>
+    <button id="buttonGetir">
+        Türleri Getir
+    </button>
+    <span id="tarih"></span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+           $('#buttonGetir').on('click',function(){
+              $.ajax({
+                url:'https://localhost:44361/api/Genres',
+                method:'GET',
+                headers:{
+                    'Authorization':'bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0dXJrYXkiLCJlbWFpbCI6ImFiY0B4eHguY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJuYmYiOjE2MjQwOTM2OTAsImV4cCI6MTYyNDA5NTQ5MCwiaXNzIjoia29kbHV5b3J1ei5jb20iLCJhdWQiOiJrb2RsdXlvcnV6LmNvbSJ9.TkKKMlJTkIPHGPJb083qkKI_jOJzWyvmV51XlkqieR3bSXhlGgMJwUtXAK18gbqtDajVR3waMaD5U9f8mvTk7w',
+                    'Authorization':'basic  '+btoa('uname:password')
+
+                },
+                success:function(data){
+                   $.each(data.genres,function(index,element){
+                      var li = $('<li class="list-group-item">'+element.name+'</li>');
+                      $('#menu').append(li);
+                   });
+
+                   $('#tarih').text(data.value);
+
+                   $('.menu').fadeIn('slow');
+
+
+                },
+                error:function(err){
+                    console.log(err)
+                }  
+              });
+           });
+        })
+    </script>
+        
+</body>
+</html>

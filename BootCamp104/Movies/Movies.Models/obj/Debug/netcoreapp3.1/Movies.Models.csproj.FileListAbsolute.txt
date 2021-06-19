@@ -1,7 +1,6 @@
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\bin\Debug\netcoreapp3.1\Movies.Models.deps.json
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\bin\Debug\netcoreapp3.1\Movies.Models.dll
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\bin\Debug\netcoreapp3.1\Movies.Models.pdb
-C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\obj\Debug\netcoreapp3.1\Movies.Models.csprojAssemblyReference.cache
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\obj\Debug\netcoreapp3.1\Movies.Models.AssemblyInfoInputs.cache
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\obj\Debug\netcoreapp3.1\Movies.Models.AssemblyInfo.cs
 C:\Users\turka\source\repos\Kurumsal\Kodluyoruz\BootCamp104\Movies\Movies.Models\obj\Debug\netcoreapp3.1\Movies.Models.csproj.CoreCompileInputs.cache

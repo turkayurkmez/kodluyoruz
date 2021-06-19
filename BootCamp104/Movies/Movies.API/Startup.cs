@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Redis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -34,10 +36,27 @@ namespace Movies.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(opt =>
+            {
+                opt.CacheProfiles.Add("list", new CacheProfile { Duration = 300 });
+            });
+                    
+            services.AddResponseCaching();
+            services.AddMemoryCache();
+            //Cache mekanizmasını sunucu üzerinde dağıtmak da mümkün:
+            services.AddDistributedRedisCache(opt =>
+            {
+                opt.Configuration = "genre_list:6379";
+            });
+
+            //Redis Dependency Injection:
+            services.Add(ServiceDescriptor.Singleton<IDistributedCache, RedisCache>());
+
             services.AddMapperConfiguration();
             services.AddScoped<IGenreService, GenreService>();
             services.AddScoped<IGenreRepository, EFGenreRepository>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, FakeUserRepository>();
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<MoviesDbContext>(option => option.UseSqlServer(connectionString));
 
@@ -52,10 +71,11 @@ namespace Movies.API
                 Version ="v1"
             }));
 
+            //denetleme
             var issuer = Configuration.GetSection("Bearer")["Issuer"];
             var audience = Configuration.GetSection("Bearer")["Audience"];
             var key = Configuration.GetSection("Bearer")["SecurityKey"];
-
+            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(opt =>
                     {
@@ -72,6 +92,33 @@ namespace Movies.API
                     });
 
 
+            //Cross origin requests
+            /*
+             *   -- Aynı originler:
+             *   https://www.turkayurkmez.com/index.html
+             *   https://www.turkayurkmez.com/posts.php
+             *   
+             *   -- Farklı orjinler:
+             *   https://www.turkayurkmez.com/index.html
+             *   https://info.turkayurkmez.com
+             *   http://www.turkayurkmez.com/index.html
+             *   https://www.turkayurkmez.com:1444/index.html
+             */
+
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("Allow", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+
+
+            });
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -88,10 +135,13 @@ namespace Movies.API
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
-
+            app.UseRouting();       
+            app.UseCors("Allow");
+            app.UseResponseCaching();
+            
             app.UseAuthentication();
             app.UseAuthorization();
+          
 
             app.UseEndpoints(endpoints =>
             {

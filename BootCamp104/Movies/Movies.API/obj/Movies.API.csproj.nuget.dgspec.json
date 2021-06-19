@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[3.1.16, )"
             },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[6.1.4, )"
